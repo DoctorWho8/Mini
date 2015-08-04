@@ -1,0 +1,2 @@
+# Mini
+Netduino Mini
