@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>Test47</FeatureName>
+    <Guid>{dedc960d-8fc9-45bf-bfb2-3269551ec9a8}</Guid>
+    <Description>&lt;Add Feature Description Here&gt;</Description>
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="Test47.$(LIB_EXT)" />
+    <InteropFeature Include="Test47" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\Test47.pe" />
+    <RequiredProjects Include="C:\Users\GCL.CMDRSKYWALKER.001\Documents\Visual Studio 2010\Projects\Mini\Test47\Test47\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>

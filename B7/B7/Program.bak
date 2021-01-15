@@ -1,0 +1,27 @@
+using System;
+using System.Threading;
+using Microsoft.SPOT;
+using Microsoft.SPOT.Hardware;
+using SecretLabs.NETMF.Hardware;
+using SecretLabs.NETMF.Hardware.NetduinoMini;
+
+namespace B7
+{
+    public class Program
+    {
+            OutputPort led4 = new OutputPort(Pins.GPIO_PIN_16, false);
+            OutputPort led5 = new OutputPort(Pins.GPIO_PIN_15, false);
+            OutputPort led6 = new OutputPort(Pins.GPIO_PIN_14, false);
+            OutputPort led7 = new OutputPort(Pins.GPIO_PIN_13, false);
+            while (true)
+             led4.write(true);
+             led5.write(true);
+             led6.write(true);
+             led7.write(true);
+            }
+
+        }
+
+    }
+}    
+

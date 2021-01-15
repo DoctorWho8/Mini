@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>B7</FeatureName>
+    <Guid>{a261080d-5b43-45f2-8886-ce7d946844c2}</Guid>
+    <Description />
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="B7.$(LIB_EXT)" />
+    <InteropFeature Include="B7" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\B7.pe" />
+    <RequiredProjects Include="C:\Users\hanso\Documents\Visual Studio 2013\Projects\Mini\B7\B7\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>

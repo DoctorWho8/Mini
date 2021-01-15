@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>rgb_new</FeatureName>
+    <Guid>{789af89c-e2d2-44b1-92b3-451eae4ea924}</Guid>
+    <Description>&lt;Add Feature Description Here&gt;</Description>
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="rgb_new.$(LIB_EXT)" />
+    <InteropFeature Include="rgb_new" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\rgb_new.pe" />
+    <RequiredProjects Include="C:\Users\GCL\Documents\Visual Studio 2010\Projects\Mini\rgb_new\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>

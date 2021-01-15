@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>rgbnewandbutton</FeatureName>
+    <Guid>{79b8542e-3ff4-4d47-95e0-dfebf3b4b0de}</Guid>
+    <Description>&lt;Add Feature Description Here&gt;</Description>
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="rgbnewandbutton.$(LIB_EXT)" />
+    <InteropFeature Include="rgbnewandbutton" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\$(ENDIANNESS)\rgbnewandbutton.pe" />
+    <RequiredProjects Include="C:\Users\GCL\Documents\Visual Studio 2010\Projects\Mini\rgb_new\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>

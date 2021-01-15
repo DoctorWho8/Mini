@@ -1,0 +1,56 @@
+﻿Found debugger!
+
+Create TS.
+
+ Loading start at 13ed64, end 154648
+
+   Assembly: mscorlib (4.2.0.0)
+
+   Assembly: Microsoft.SPOT.Native (4.2.0.0)
+
+   Assembly: Microsoft.SPOT.Hardware (4.2.0.0)
+
+   Assembly: Microsoft.SPOT.Hardware.SerialPort (4.2.0.0)
+
+   Assembly: Microsoft.SPOT.IO (4.2.0.0)
+
+   Assembly: System.IO (4.2.0.0)
+
+   Assembly: Microsoft.SPOT.Hardware.PWM (4.2.0.1)
+
+   Assembly: SecretLabs.NETMF.Diagnostics (4.2.0.0)
+
+   Assembly: SecretLabs.NETMF.IO (4.2.0.0)
+
+Loading Deployment Assemblies.
+
+Attaching deployed file.
+
+   Assembly: SecretLabs.NETMF.Hardware.NetduinoMini (4.2.0.1)
+
+Attaching deployed file.
+
+   Assembly: B1 (1.0.0.0)
+
+Attaching deployed file.
+
+   Assembly: SecretLabs.NETMF.Hardware (4.2.0.0)
+
+Resolving.
+
+The debugging target runtime is loading the application assemblies and starting execution.
+Ready.
+
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\mscorlib.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\Microsoft.SPOT.Native.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\Microsoft.SPOT.Hardware.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\Microsoft.SPOT.Hardware.SerialPort.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\Microsoft.SPOT.IO.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\System.IO.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.2\Assemblies\le\Microsoft.SPOT.Hardware.PWM.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Secret Labs\Netduino SDK\Assemblies\v4.2\le\SecretLabs.NETMF.Diagnostics.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Secret Labs\Netduino SDK\Assemblies\v4.2\le\SecretLabs.NETMF.IO.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Secret Labs\Netduino SDK\Assemblies\v4.2\le\SecretLabs.NETMF.Hardware.NetduinoMini.dll', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Users\GCL.CMDRSKYWALKER\Documents\Visual Studio 2010\Projects\Mini\B1\B1\bin\Debug\le\B1.exe', Symbols loaded.
+'Microsoft.SPOT.Debugger.CorDebug.dll' (Managed): Loaded 'C:\Program Files (x86)\Secret Labs\Netduino SDK\Assemblies\v4.2\le\SecretLabs.NETMF.Hardware.dll', Symbols loaded.
+The thread '<No Name>' (0x2) has exited with code 0 (0x0).
