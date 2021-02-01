@@ -25,12 +25,13 @@ namespace bz1
             while (true)
             {
                 Thread.Sleep(250);
-                // i4.Write(false);
-                // i5.Write(false);
-                // i0.Write(false);
-                // i1.Write(false);
-                // i2.Write(false);
-                Thread.Sleep(250);
+                i0.Write(false);
+                i1.Write(false);
+                i2.Write(false);
+                i3.Write(false);
+                i4.Write(false);
+                i5.Write(false);
+              Thread.Sleep(250);
                 i0.Write(false);
                 i1.Write(false);
                 i2.Write(false);
@@ -70,15 +71,15 @@ namespace bz1
                 //    i1.Write(false);
                 //    i2.Write(true);
                 //    Thread.Sleep(250);
-                i0.Write(true);
-                i1.Write(true);
-                i2.Write(true);
-                i3.Write(true);
-                i4.Write(true);
-                i5.Write(true);
-                i6.Write(true);
-                i7.Write(true);
-                Thread.Sleep(250);
+                //    i0.Write(true);
+                //    i1.Write(true);
+                //    i2.Write(true);
+                //    i3.Write(true);
+                //    i4.Write(true);
+                //    i5.Write(true);
+                //    i6.Write(true);
+                //    i7.Write(true);
+                //    Thread.Sleep(250);
                 //     i0.Write(false);
                 //     i1.Write(false);
                 //     i2.Write(true);
@@ -91,7 +92,7 @@ namespace bz1
                 //    i5.Write(false);
                 //    i6.Write(false);
                 //    i7.Write(false);
-                Thread.Sleep(250);
+                //    Thread.Sleep(250);
                 //     i0.Write(false);
                 //      i1.Write(false);
                 //    i2.Write(false);

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <FeatureName>bz1</FeatureName>
+    <Guid>{0238d759-5272-41ab-b06b-087b6b4e23a5}</Guid>
+    <Description />
+    <Groups />
+  </PropertyGroup>
+  <ItemGroup>
+    <DriverLibs Include="bz1.$(LIB_EXT)" />
+    <InteropFeature Include="bz1" />
+    <MMP_DAT_CreateDatabase Include="$(BUILD_TREE_CLIENT)\pe\bz1.pe" />
+    <RequiredProjects Include="C:\Users\hanso\Documents\Visual Studio 2013\Projects\Mini\bz1\bz1\Stubs\dotnetmf.proj" />
+  </ItemGroup>
+</Project>
